@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .text p{
+            font-size: larger;
+            font-style: italic;
+            text-align: center;
+            text-decoration: underline;
+            
+        }
+        .content{
+            padding-left: 450px;
+            padding-top: 80px;
+            font-size: larger;
+
+
+       }
+       .content h3{
+        color: black;
+       }
+       .content h3 b{
+        color: rgb(252, 37, 37);
+        font-size: larger;
+       }
+       body{
+        background-color: cornflowerblue;
+       }
+       .contnt ul li a{
+            font-size: large;
+            font-weight: 600;
+            float: right;
+            box-sizing: content-box;
+            color: red;
+            padding-top: 100px;
+            padding-right: 70px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <p>Please Submit the Form,<br>Our Executive will conect with you within 10 min.</p>
+    </div>
+    <form class="content">
+        <label for="fname">First Name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="">
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" value="">
+        <br><br>
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" id="date" name="date" value="">
+        <p><h3>Please select your <b>Gender</b></h3></p>
+        <input type="checkbox" id="male" name="gender" value="male">
+        <label for="male"> Male</label>
+        <input type="checkbox" id="female" name="gender" value="female">
+        <label for="female"> Female</label>
+        <input type="checkbox" id="other" name="gender" value="other">
+        <label for="other"> Other</label>
+        <br><br><br>
+<input type="submit" value="Submit">
+    </form>
+    <div class="contnt">
+        <ul>
+            <li> <a href="index.html">   Back </a> </li>
+        </ul>
+    </div>
+</body>
+</html>

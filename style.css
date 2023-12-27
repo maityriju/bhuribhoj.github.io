@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 100px;
+    background-color: azure;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.nav .logo h1{
+    font-weight: 900;
+    font-family: sans-serif;
+    color: black;
+    font-size: xx-large;
+}
+.nav .logo b{
+    color: crimson;
+    font-size: x-large;}
+.nav ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav ul li{
+    margin-right: 80px;
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.content .content-left{
+    display: block;
+    width: 100%;
+
+}
+.content .content-left .info h2{
+    font-size: 45px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+
+}
+.content .content-left .info p{
+    margin-left: 100px;
+    margin-bottom: 20px ;
+
+}
+.content .content-left button{
+    padding: 10px 23px;
+    background-color: goldenrod;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.content .content-right{
+    display: block;
+    width: 100%;
+}
+.content .content-right img{
+    width: 600px;
+    height: auto;
+    position: relative;
+    animation: alternate ;
